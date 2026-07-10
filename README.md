@@ -1,80 +1,87 @@
 # Hi, I'm Vanshika Adduri 👋
 
-**Electronics & Communication Engineering Student | VLSI · Embedded · Software**  
-📍 BVRIT Hyderabad College of Engineering for Women, Hyderabad  
-🎯 Seeking opportunities in **Physical Design / STA / RTL Design**
+**Electronics & Communication Engineering Student | Python Developer | Software & Embedded Systems**
+📍 BVRIT Hyderabad College of Engineering for Women, Hyderabad
+🎯 Seeking opportunities in Software Development / Python / Backend Engineering
 
 ---
 
 ## 🧠 About Me
 
-Final year ECE student who enjoys working across the stack — from designing and timing RTL circuits on real FPGAs to building software platforms and embedded IoT systems. I like understanding how things work at the hardware level and translating that into clean, verifiable designs.
+Final year ECE student who works across both software and hardware — from building Python-based simulators and platforms to designing RTL circuits on real FPGAs. I enjoy understanding how systems work at a deep level and translating that thinking into clean, working code.
+
+Currently focused on Python development, data structures, and software engineering fundamentals.
 
 ---
 
-## 🔧 Skills
+## 💻 Software Projects
 
-**Hardware & EDA**
-- Verilog / SystemVerilog
-- AXI-Lite Protocol | FSM Design | RTL Coding
-- Vivado (Synthesis, Implementation, STA)
-- Antenna Design & RF Simulation
+### 🌐 [Network Packet Loss Simulator](https://github.com/VanshikaAdduri/network-simulator)
+`Python` `OOP` `Graph` `BFS` `Queue` `Simulation`
 
-**Software & Embedded**
-- Python | Java
-- ESP32 / Embedded C
-
-**Tools & Platforms**
-- Git / GitHub
-
----
-
-## 🚀 Projects
-
-### 🔷 [AXI-Lite Slave Register File](https://github.com/VanshikaAdduri/axi-lite-regfile)
-> Verilog · Vivado · AXI-Lite · STA
-
-Designed a minimal AXI-Lite slave exposing four 32-bit control/status registers on a Xilinx Artix-7 FPGA. Implemented FSM-based read/write paths with full AXI handshaking and a self-checking testbench. Synthesised at 100 MHz, extracted critical paths (WNS: 0.262 ns), then introduced a write-path pipeline register to improve timing margins and compared results.
-
-`Verilog` `AXI-Lite` `FSM` `Vivado` `STA` `Artix-7`
-
----
-
-### 📡 [Antenna Design at Novel Frequency Band](https://github.com/VanshikaAdduri/antenna-design)
-> RF Design · EM Simulation
-
-Designed and simulated an antenna operating at a new frequency band targeting higher data transmission speeds. Analysed return loss, gain, and radiation patterns through simulation.
-
-`RF Design` `Antenna` `EM Simulation`
+Simulates how data packets travel through a network graph with congestion-based packet loss and retransmission logic.
+- Built 3 classes: Packet, NetworkNode, Network — full OOP design
+- BFS algorithm finds shortest path between source and destination nodes
+- Each node has a congestion probability — packets either pass through or get dropped
+- Retransmission logic retries dropped packets once before marking as lost
+- Final report shows delivery rate, packet loss %, average hops per packet
 
 ---
 
 ### 🌿 [Carbon-Aware Travel Route Planner](https://github.com/VanshikaAdduri/carbon-route-planner)
-> ESP32 · Embedded C · IoT
+`ESP32` `Embedded C` `Python` `IoT` `Routing`
 
-ESP32-based system that recommends the shortest and most carbon-efficient travel routes. Integrates sensor data and routing logic to minimise carbon emissions in real time.
-
-`ESP32` `Embedded C` `IoT`
+ESP32-based system that recommends the shortest and most carbon-efficient travel routes in real time.
+- Integrates real-time sensor data with routing logic to evaluate multiple path options
+- Selects route with minimum estimated carbon footprint
+- Bridges hardware sensor input with software decision logic
+- Demonstrates full hardware-software integration across the stack
 
 ---
 
 ### 🏥 [Doctor-at-Home Patient Platform](https://github.com/VanshikaAdduri/doctor-at-home)
-> Java
+`Python` `OOP` `Healthcare`
 
-Platform where patients register and a doctor is dispatched to their location for in-home treatment. Covers patient registration, scheduling, and doctor assignment logic.
+Python platform where patients register and a doctor is automatically dispatched to their location.
+- Separate classes for Patient, Doctor, and Appointment — clean OOP design
+- Doctor assignment algorithm matches available doctors by location and availability
+- Scheduling system handles time slot management and conflict detection
+- Covers patient registration, appointment creation, and doctor dispatch end to end
 
-`Java` `OOP` `Healthcare`
+---
+
+## ⚡ Hardware Projects
+
+### 🔷 [AXI-Lite Slave Register File](https://github.com/VanshikaAdduri/axi-lite-regfile)
+`Verilog` `Vivado` `AXI-Lite` `FSM` `STA` `Artix-7`
+
+Designed a minimal AXI-Lite slave exposing four 32-bit control/status registers on a Xilinx Artix-7 FPGA.
+- FSM-based read/write paths with full AXI handshaking
+- Self-checking testbench for functional verification
+- Synthesised at 100 MHz — WNS: 0.262 ns
+- Introduced write-path pipeline register to improve timing margins
 
 ---
 
-### 🔗 [URL Shortener](https://github.com/VanshikaAdduri/url-shortener)
-> Python
+### 📡 [Antenna Design at Novel Frequency Band](https://github.com/VanshikaAdduri/antenna-design)
+`RF Design` `EM Simulation`
 
-Maps long URLs to compact shareable links with redirection support.
-
-`Python`
+Designed and simulated an antenna operating at a novel frequency band targeting higher data transmission speeds.
+- Analysed return loss, gain, and radiation patterns through simulation
 
 ---
+
+## 🛠️ Skills
+
+| Software | Hardware | Tools |
+|---|---|---|
+| Python | Verilog / SystemVerilog | Git / GitHub |
+| Embedded C | AXI-Lite Protocol | Vivado |
+| OOP & DSA | FSM Design & RTL | ESP32 |
+| Graph Algorithms | STA & Synthesis | VS Code |
+
+---
+
 
 ## 📊 GitHub Stats
 
