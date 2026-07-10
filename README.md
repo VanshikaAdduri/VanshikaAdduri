@@ -1,6 +1,7 @@
 # Hi, I'm Vanshika Adduri 👋
 
 **Electronics & Communication Engineering Student | Python Developer | Software & Embedded Systems**
+
 📍 BVRIT Hyderabad College of Engineering for Women, Hyderabad
 🎯 Seeking opportunities in Software Development / Python / Backend Engineering
 
