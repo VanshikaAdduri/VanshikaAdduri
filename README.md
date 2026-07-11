@@ -64,13 +64,6 @@ Designed a minimal AXI-Lite slave exposing four 32-bit control/status registers 
 
 ---
 
-### 📡 [Antenna Design at Novel Frequency Band](https://github.com/VanshikaAdduri/antenna-design)
-`RF Design` `EM Simulation`
-
-Designed and simulated an antenna operating at a novel frequency band targeting higher data transmission speeds.
-- Analysed return loss, gain, and radiation patterns through simulation
-
----
 
 ## 🛠️ Skills
 
